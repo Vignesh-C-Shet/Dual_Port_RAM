@@ -1,0 +1,230 @@
+[2025-09-03 03:40:22 UTC] xrun -Q -unbuffered '-timescale' '1ns/1ns' '-sysv' '-access' '+rw' design.sv testbench.sv  
+TOOL:	xrun	23.09-s001: Started on Sep 02, 2025 at 23:40:23 EDT
+xrun: 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+      tx.randomize() with {
+                 |
+xmvlog: *W,FUNTSK (generator.sv,93|17): function called as a task without void'().
+            tx.randomize() with {
+                       |
+xmvlog: *W,FUNTSK (generator.sv,110|23): function called as a task without void'().
+      tx.randomize() with {
+                 |
+xmvlog: *W,FUNTSK (generator.sv,125|17): function called as a task without void'().
+	Top level design units:
+		$unit_0x67f934e9
+		top_tb
+Loading snapshot worklib.top_tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
+xcelium> run
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 242 |  addr_a = 1 | dataout_a =   z |  we_b = 1 |  datain_b = 219 | addr_b = 7 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  81 |  addr_a = 1 | dataout_a =   z |  we_b = 1 |  datain_b =  39 | addr_b = 7 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  26 |  addr_a = 2 | dataout_a =   z |  we_b = 1 |  datain_b =  34 | addr_b = 5 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 210 |  addr_a = 2 | dataout_a =   z |  we_b = 1 |  datain_b = 204 | addr_b = 7 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  20 |  addr_a = 2 | dataout_a =   z |  we_b = 1 |  datain_b =  65 | addr_b = 5 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  20 |  addr_a = 0 | dataout_a =   z |  we_b = 1 |  datain_b =  82 | addr_b = 5 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  49 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b =  86 | addr_b = 6 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 163 |  addr_a = 0 | dataout_a =   z |  we_b = 1 |  datain_b =  26 | addr_b = 6 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 164 |  addr_a = 2 | dataout_a =   z |  we_b = 1 |  datain_b = 191 | addr_b = 7 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 173 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b =  24 | addr_b = 4 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  49 |  addr_a = 0 | dataout_a =   z |  we_b = 1 |  datain_b = 163 | addr_b = 5 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  72 |  addr_a = 0 | dataout_a =   z |  we_b = 1 |  datain_b = 164 | addr_b = 7 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 156 |  addr_a = 2 | dataout_a =   z |  we_b = 1 |  datain_b = 200 | addr_b = 6 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  78 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b =  59 | addr_b = 4 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  30 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b = 218 | addr_b = 5 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 107 |  addr_a = 1 | dataout_a =   z |  we_b = 1 |  datain_b = 109 | addr_b = 4 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 140 |  addr_a = 0 | dataout_a =   z |  we_b = 1 |  datain_b = 186 | addr_b = 6 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 110 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b =  25 | addr_b = 4 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  67 |  addr_a = 1 | dataout_a =   z |  we_b = 1 |  datain_b =   9 | addr_b = 4 |  dataout_b =   z 
+tag = write_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  38 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b = 209 | addr_b = 5 |  dataout_b =   z 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 0 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 0 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 4 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 4 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 6 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 0 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 4 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 6 |  dataout_b =   x 
+tag = read_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a =   x |  we_b = 0 |  datain_b =   z | addr_b = 6 |  dataout_b =   x 
+tag = both_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =  40 |  addr_a = 3 | dataout_a =   z |  we_b = 1 |  datain_b = 114 | addr_b = 3 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 255 |  addr_a = 4 | dataout_a =   z |  we_b = 1 |  datain_b = 102 | addr_b = 2 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 0 | datain_a = 199 |  addr_a = 0 | dataout_a =   z |  we_b = 0 |  datain_b =  22 | addr_b = 5 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 0 | datain_a = 239 |  addr_a = 7 | dataout_a =   z |  we_b = 0 |  datain_b =  11 | addr_b = 0 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  91 |  addr_a = 3 | dataout_a =   z |  we_b = 0 |  datain_b = 173 | addr_b = 0 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =  25 |  addr_a = 7 | dataout_a =   z |  we_b = 0 |  datain_b = 156 | addr_b = 0 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 0 | datain_a =  76 |  addr_a = 7 | dataout_a =   z |  we_b = 0 |  datain_b = 136 | addr_b = 5 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 0 | datain_a = 183 |  addr_a = 6 | dataout_a =   z |  we_b = 0 |  datain_b = 105 | addr_b = 2 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 1 | datain_a = 140 |  addr_a = 6 | dataout_a =   z |  we_b = 1 |  datain_b =  35 | addr_b = 1 |  dataout_b =   z 
+tag = both_generator | time = 15 | rst = 0 | we_a = 1 | datain_a =  10 |  addr_a = 4 | dataout_a =   z |  we_b = 0 |  datain_b =  12 | addr_b = 0 |  dataout_b =   z 
+tag = monitor | time = 20 | rst = 0 | we_a = 0 | datain_a =   0 |  addr_a = 0 | dataout_a =   0 |  we_b = 0 |  datain_b =   0 | addr_b = 0 |  dataout_b =   0 
+verification failed | time = 20 | mx.we_a = 0 | mx.addr_a = 0 | mx.datain_a =   0 | mx.dataout_a =   0 | mem[mx.addr_a] =   x
+verification failed | time = 20 | mx.we_b = 0 | mx.addr_b = 0 | mx.datain_b =   0 | mx.dataout_b =   0 | mem[mx.addr_b] =   x
+tag = monitor | time = 30 | rst = 0 | we_a = 1 | datain_a = 242 |  addr_a = 1 | dataout_a =   0 |  we_b = 1 |  datain_b = 219 | addr_b = 7 |  dataout_b =   0 
+time = 30 | Writing mem[1] = 242
+time = 30 | Writing mem[7] = 219
+tag = monitor | time = 40 | rst = 0 | we_a = 1 | datain_a =  81 |  addr_a = 1 | dataout_a =   0 |  we_b = 1 |  datain_b =  39 | addr_b = 7 |  dataout_b =   0 
+time = 40 | Writing mem[1] =  81
+time = 40 | Writing mem[7] =  39
+tag = monitor | time = 50 | rst = 0 | we_a = 1 | datain_a =  26 |  addr_a = 2 | dataout_a =   0 |  we_b = 1 |  datain_b =  34 | addr_b = 5 |  dataout_b =   0 
+time = 50 | Writing mem[2] =  26
+time = 50 | Writing mem[5] =  34
+tag = monitor | time = 60 | rst = 0 | we_a = 1 | datain_a = 210 |  addr_a = 2 | dataout_a =   0 |  we_b = 1 |  datain_b = 204 | addr_b = 7 |  dataout_b =   0 
+time = 60 | Writing mem[2] = 210
+time = 60 | Writing mem[7] = 204
+tag = monitor | time = 70 | rst = 0 | we_a = 1 | datain_a =  20 |  addr_a = 2 | dataout_a =   0 |  we_b = 1 |  datain_b =  65 | addr_b = 5 |  dataout_b =   0 
+time = 70 | Writing mem[2] =  20
+time = 70 | Writing mem[5] =  65
+tag = monitor | time = 80 | rst = 0 | we_a = 1 | datain_a =  20 |  addr_a = 0 | dataout_a =   0 |  we_b = 1 |  datain_b =  82 | addr_b = 5 |  dataout_b =   0 
+time = 80 | Writing mem[0] =  20
+time = 80 | Writing mem[5] =  82
+tag = monitor | time = 90 | rst = 0 | we_a = 1 | datain_a =  49 |  addr_a = 3 | dataout_a =   0 |  we_b = 1 |  datain_b =  86 | addr_b = 6 |  dataout_b =   0 
+time = 90 | Writing mem[3] =  49
+time = 90 | Writing mem[6] =  86
+tag = monitor | time = 100 | rst = 0 | we_a = 1 | datain_a = 163 |  addr_a = 0 | dataout_a =   0 |  we_b = 1 |  datain_b =  26 | addr_b = 6 |  dataout_b =   0 
+time = 100 | Writing mem[0] = 163
+time = 100 | Writing mem[6] =  26
+tag = monitor | time = 110 | rst = 0 | we_a = 1 | datain_a = 164 |  addr_a = 2 | dataout_a =   0 |  we_b = 1 |  datain_b = 191 | addr_b = 7 |  dataout_b =   0 
+time = 110 | Writing mem[2] = 164
+time = 110 | Writing mem[7] = 191
+tag = monitor | time = 120 | rst = 0 | we_a = 1 | datain_a = 173 |  addr_a = 3 | dataout_a =   0 |  we_b = 1 |  datain_b =  24 | addr_b = 4 |  dataout_b =   0 
+time = 120 | Writing mem[3] = 173
+time = 120 | Writing mem[4] =  24
+tag = monitor | time = 130 | rst = 0 | we_a = 1 | datain_a =  49 |  addr_a = 0 | dataout_a =   0 |  we_b = 1 |  datain_b = 163 | addr_b = 5 |  dataout_b =   0 
+time = 130 | Writing mem[0] =  49
+time = 130 | Writing mem[5] = 163
+tag = monitor | time = 140 | rst = 0 | we_a = 1 | datain_a =  72 |  addr_a = 0 | dataout_a =   0 |  we_b = 1 |  datain_b = 164 | addr_b = 7 |  dataout_b =   0 
+time = 140 | Writing mem[0] =  72
+time = 140 | Writing mem[7] = 164
+tag = monitor | time = 150 | rst = 0 | we_a = 1 | datain_a = 156 |  addr_a = 2 | dataout_a =   0 |  we_b = 1 |  datain_b = 200 | addr_b = 6 |  dataout_b =   0 
+time = 150 | Writing mem[2] = 156
+time = 150 | Writing mem[6] = 200
+tag = monitor | time = 160 | rst = 0 | we_a = 1 | datain_a =  78 |  addr_a = 3 | dataout_a =   0 |  we_b = 1 |  datain_b =  59 | addr_b = 4 |  dataout_b =   0 
+time = 160 | Writing mem[3] =  78
+time = 160 | Writing mem[4] =  59
+tag = monitor | time = 170 | rst = 0 | we_a = 1 | datain_a =  30 |  addr_a = 3 | dataout_a =   0 |  we_b = 1 |  datain_b = 218 | addr_b = 5 |  dataout_b =   0 
+time = 170 | Writing mem[3] =  30
+time = 170 | Writing mem[5] = 218
+tag = monitor | time = 180 | rst = 0 | we_a = 1 | datain_a = 107 |  addr_a = 1 | dataout_a =   0 |  we_b = 1 |  datain_b = 109 | addr_b = 4 |  dataout_b =   0 
+time = 180 | Writing mem[1] = 107
+time = 180 | Writing mem[4] = 109
+tag = monitor | time = 190 | rst = 0 | we_a = 1 | datain_a = 140 |  addr_a = 0 | dataout_a =   0 |  we_b = 1 |  datain_b = 186 | addr_b = 6 |  dataout_b =   0 
+time = 190 | Writing mem[0] = 140
+time = 190 | Writing mem[6] = 186
+tag = monitor | time = 200 | rst = 0 | we_a = 1 | datain_a = 110 |  addr_a = 3 | dataout_a =   0 |  we_b = 1 |  datain_b =  25 | addr_b = 4 |  dataout_b =   0 
+time = 200 | Writing mem[3] = 110
+time = 200 | Writing mem[4] =  25
+tag = monitor | time = 210 | rst = 0 | we_a = 1 | datain_a =  67 |  addr_a = 1 | dataout_a =   0 |  we_b = 1 |  datain_b =   9 | addr_b = 4 |  dataout_b =   0 
+time = 210 | Writing mem[1] =  67
+time = 210 | Writing mem[4] =   9
+tag = monitor | time = 220 | rst = 0 | we_a = 1 | datain_a =  38 |  addr_a = 3 | dataout_a =   0 |  we_b = 1 |  datain_b = 209 | addr_b = 5 |  dataout_b =   0 
+time = 220 | Writing mem[3] =  38
+time = 220 | Writing mem[5] = 209
+tag = monitor | time = 230 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =  67 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 230 | mx.we_a = 0 | mx.addr_a = 1 | mx.datain_a =   z | mx.dataout_a =  67 | mem[mx.addr_a] =  67
+verification passed | time = 230 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 240 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a = 156 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 240 | mx.we_a = 0 | mx.addr_a = 2 | mx.datain_a =   z | mx.dataout_a = 156 | mem[mx.addr_a] = 156
+verification passed | time = 240 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 250 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 0 | dataout_a = 140 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 250 | mx.we_a = 0 | mx.addr_a = 0 | mx.datain_a =   z | mx.dataout_a = 140 | mem[mx.addr_a] = 140
+verification passed | time = 250 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 260 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 0 | dataout_a = 140 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 260 | mx.we_a = 0 | mx.addr_a = 0 | mx.datain_a =   z | mx.dataout_a = 140 | mem[mx.addr_a] = 140
+verification passed | time = 260 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 270 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 270 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 270 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 280 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 4 |  dataout_b =   9 
+verification passed | time = 280 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 280 | mx.we_b = 0 | mx.addr_b = 4 | mx.datain_b =   z | mx.dataout_b =   9 | mem[mx.addr_b] =   9
+tag = monitor | time = 290 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 290 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 290 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 300 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a = 156 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 300 | mx.we_a = 0 | mx.addr_a = 2 | mx.datain_a =   z | mx.dataout_a = 156 | mem[mx.addr_a] = 156
+verification passed | time = 300 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 310 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a = 156 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 310 | mx.we_a = 0 | mx.addr_a = 2 | mx.datain_a =   z | mx.dataout_a = 156 | mem[mx.addr_a] = 156
+verification passed | time = 310 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 320 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a = 156 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 320 | mx.we_a = 0 | mx.addr_a = 2 | mx.datain_a =   z | mx.dataout_a = 156 | mem[mx.addr_a] = 156
+verification passed | time = 320 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 330 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =  67 |  we_b = 0 |  datain_b =   z | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 330 | mx.we_a = 0 | mx.addr_a = 1 | mx.datain_a =   z | mx.dataout_a =  67 | mem[mx.addr_a] =  67
+verification passed | time = 330 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =   z | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 340 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =  67 |  we_b = 0 |  datain_b =   z | addr_b = 4 |  dataout_b =   9 
+verification passed | time = 340 | mx.we_a = 0 | mx.addr_a = 1 | mx.datain_a =   z | mx.dataout_a =  67 | mem[mx.addr_a] =  67
+verification passed | time = 340 | mx.we_b = 0 | mx.addr_b = 4 | mx.datain_b =   z | mx.dataout_b =   9 | mem[mx.addr_b] =   9
+tag = monitor | time = 350 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 6 |  dataout_b = 186 
+verification passed | time = 350 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 350 | mx.we_b = 0 | mx.addr_b = 6 | mx.datain_b =   z | mx.dataout_b = 186 | mem[mx.addr_b] = 186
+tag = monitor | time = 360 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 360 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 360 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 370 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 0 | dataout_a = 140 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 370 | mx.we_a = 0 | mx.addr_a = 0 | mx.datain_a =   z | mx.dataout_a = 140 | mem[mx.addr_a] = 140
+verification passed | time = 370 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 380 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =  67 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 380 | mx.we_a = 0 | mx.addr_a = 1 | mx.datain_a =   z | mx.dataout_a =  67 | mem[mx.addr_a] =  67
+verification passed | time = 380 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 390 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 4 |  dataout_b =   9 
+verification passed | time = 390 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 390 | mx.we_b = 0 | mx.addr_b = 4 | mx.datain_b =   z | mx.dataout_b =   9 | mem[mx.addr_b] =   9
+tag = monitor | time = 400 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 3 | dataout_a =  38 |  we_b = 0 |  datain_b =   z | addr_b = 7 |  dataout_b = 164 
+verification passed | time = 400 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =   z | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+verification passed | time = 400 | mx.we_b = 0 | mx.addr_b = 7 | mx.datain_b =   z | mx.dataout_b = 164 | mem[mx.addr_b] = 164
+tag = monitor | time = 410 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 1 | dataout_a =  67 |  we_b = 0 |  datain_b =   z | addr_b = 6 |  dataout_b = 186 
+verification passed | time = 410 | mx.we_a = 0 | mx.addr_a = 1 | mx.datain_a =   z | mx.dataout_a =  67 | mem[mx.addr_a] =  67
+verification passed | time = 410 | mx.we_b = 0 | mx.addr_b = 6 | mx.datain_b =   z | mx.dataout_b = 186 | mem[mx.addr_b] = 186
+tag = monitor | time = 420 | rst = 0 | we_a = 0 | datain_a =   z |  addr_a = 2 | dataout_a = 156 |  we_b = 0 |  datain_b =   z | addr_b = 6 |  dataout_b = 186 
+verification passed | time = 420 | mx.we_a = 0 | mx.addr_a = 2 | mx.datain_a =   z | mx.dataout_a = 156 | mem[mx.addr_a] = 156
+verification passed | time = 420 | mx.we_b = 0 | mx.addr_b = 6 | mx.datain_b =   z | mx.dataout_b = 186 | mem[mx.addr_b] = 186
+tag = monitor | time = 430 | rst = 0 | we_a = 0 | datain_a =  40 |  addr_a = 3 | dataout_a =  38 |  we_b = 1 |  datain_b = 114 | addr_b = 3 |  dataout_b = 186 
+verification passed | time = 430 | mx.we_a = 0 | mx.addr_a = 3 | mx.datain_a =  40 | mx.dataout_a =  38 | mem[mx.addr_a] =  38
+time = 430 | Writing mem[3] = 114
+tag = monitor | time = 440 | rst = 0 | we_a = 1 | datain_a = 255 |  addr_a = 4 | dataout_a =  38 |  we_b = 1 |  datain_b = 102 | addr_b = 2 |  dataout_b = 186 
+time = 440 | Writing mem[4] = 255
+time = 440 | Writing mem[2] = 102
+tag = monitor | time = 450 | rst = 0 | we_a = 0 | datain_a = 199 |  addr_a = 0 | dataout_a = 140 |  we_b = 0 |  datain_b =  22 | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 450 | mx.we_a = 0 | mx.addr_a = 0 | mx.datain_a = 199 | mx.dataout_a = 140 | mem[mx.addr_a] = 140
+verification passed | time = 450 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b =  22 | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 460 | rst = 0 | we_a = 0 | datain_a = 239 |  addr_a = 7 | dataout_a = 164 |  we_b = 0 |  datain_b =  11 | addr_b = 0 |  dataout_b = 140 
+verification passed | time = 460 | mx.we_a = 0 | mx.addr_a = 7 | mx.datain_a = 239 | mx.dataout_a = 164 | mem[mx.addr_a] = 164
+verification passed | time = 460 | mx.we_b = 0 | mx.addr_b = 0 | mx.datain_b =  11 | mx.dataout_b = 140 | mem[mx.addr_b] = 140
+tag = monitor | time = 470 | rst = 0 | we_a = 1 | datain_a =  91 |  addr_a = 3 | dataout_a = 164 |  we_b = 0 |  datain_b = 173 | addr_b = 0 |  dataout_b = 140 
+time = 470 | Writing mem[3] =  91
+verification passed | time = 470 | mx.we_b = 0 | mx.addr_b = 0 | mx.datain_b = 173 | mx.dataout_b = 140 | mem[mx.addr_b] = 140
+tag = monitor | time = 480 | rst = 0 | we_a = 0 | datain_a =  25 |  addr_a = 7 | dataout_a = 164 |  we_b = 0 |  datain_b = 156 | addr_b = 0 |  dataout_b = 140 
+verification passed | time = 480 | mx.we_a = 0 | mx.addr_a = 7 | mx.datain_a =  25 | mx.dataout_a = 164 | mem[mx.addr_a] = 164
+verification passed | time = 480 | mx.we_b = 0 | mx.addr_b = 0 | mx.datain_b = 156 | mx.dataout_b = 140 | mem[mx.addr_b] = 140
+tag = monitor | time = 490 | rst = 0 | we_a = 0 | datain_a =  76 |  addr_a = 7 | dataout_a = 164 |  we_b = 0 |  datain_b = 136 | addr_b = 5 |  dataout_b = 209 
+verification passed | time = 490 | mx.we_a = 0 | mx.addr_a = 7 | mx.datain_a =  76 | mx.dataout_a = 164 | mem[mx.addr_a] = 164
+verification passed | time = 490 | mx.we_b = 0 | mx.addr_b = 5 | mx.datain_b = 136 | mx.dataout_b = 209 | mem[mx.addr_b] = 209
+tag = monitor | time = 500 | rst = 0 | we_a = 0 | datain_a = 183 |  addr_a = 6 | dataout_a = 186 |  we_b = 0 |  datain_b = 105 | addr_b = 2 |  dataout_b = 102 
+verification passed | time = 500 | mx.we_a = 0 | mx.addr_a = 6 | mx.datain_a = 183 | mx.dataout_a = 186 | mem[mx.addr_a] = 186
+verification passed | time = 500 | mx.we_b = 0 | mx.addr_b = 2 | mx.datain_b = 105 | mx.dataout_b = 102 | mem[mx.addr_b] = 102
+tag = monitor | time = 510 | rst = 0 | we_a = 1 | datain_a = 140 |  addr_a = 6 | dataout_a = 186 |  we_b = 1 |  datain_b =  35 | addr_b = 1 |  dataout_b = 102 
+time = 510 | Writing mem[6] = 140
+time = 510 | Writing mem[1] =  35
+tag = monitor | time = 520 | rst = 0 | we_a = 1 | datain_a =  10 |  addr_a = 4 | dataout_a = 186 |  we_b = 0 |  datain_b =  12 | addr_b = 0 |  dataout_b = 140 
+time = 520 | Writing mem[4] =  10
+verification passed | time = 520 | mx.we_b = 0 | mx.addr_b = 0 | mx.datain_b =  12 | mx.dataout_b = 140 | mem[mx.addr_b] = 140
+Simulation complete via $finish(1) at time 526 NS + 0
+./testbench.sv:47 	#526 $finish;
+xcelium> exit
+TOOL:	xrun	23.09-s001: Exiting on Sep 02, 2025 at 23:40:24 EDT  (total: 00:00:01)
+Finding VCD file...
+./dump.vcd
+[2025-09-03 03:40:24 UTC] Opening EPWave...
+Done
